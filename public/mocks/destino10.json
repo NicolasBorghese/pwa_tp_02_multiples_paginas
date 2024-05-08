@@ -1,0 +1,18 @@
+{
+    "id": "10",
+    "name": "Teotihuacán",
+    "description": "Teotihuacán, ubicada en el valle de México, es un sitio arqueológico impresionante que alberga algunas de las pirámides más grandes y antiguas de Mesoamérica. Conocida como la Ciudad de los Dioses, Teotihuacán fue una vez una de las ciudades más grandes del mundo precolombino y un importante centro religioso y cultural. Los visitantes pueden explorar las impresionantes pirámides del Sol y de la Luna, así como la avenida de los muertos, que conecta los principales sitios arqueológicos. Además de sus imponentes estructuras, Teotihuacán ofrece una rica historia y una fascinante cultura que atrae a turistas y arqueólogos de todo el mundo. Con su misteriosa atmósfera y su magnífica arquitectura, Teotihuacán es un destino imperdible para los amantes de la historia y la arqueología.",
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "lenguaje": "Español",
+    "zonaHoraria": "UTC-6",
+    "lugaresFamosos": [
+        "Pirámide del Sol",
+        "Pirámide de la Luna",
+        "Avenida de los Muertos",
+        "Templo de Quetzalcóatl"
+    ]
+}

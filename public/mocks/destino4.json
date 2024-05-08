@@ -1,0 +1,18 @@
+{
+    "id": "4",
+    "name": "Hong Kong",
+    "description": "Hong Kong, una metrópolis vibrante situada en la costa sur de China, es conocida por su impresionante horizonte de rascacielos, su bulliciosa vida urbana y su rica historia cultural. Como centro financiero y comercial global, Hong Kong ofrece una mezcla única de tradición y modernidad que atrae a visitantes de todo el mundo. Los turistas pueden explorar los pintorescos barrios de la ciudad, como Central y Mong Kok, disfrutar de vistas panorámicas desde el famoso pico Victoria y maravillarse con los espectáculos de luces en el puerto de Victoria. Además, Hong Kong es conocida por su deliciosa comida callejera, su animada escena de compras y sus festivales culturales y eventos. Con su energía vibrante y su diversidad cultural, Hong Kong ofrece una experiencia inolvidable para los viajeros de todas partes.",
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "lenguaje": "Chino (Cantonés), Inglés",
+    "zonaHoraria": "UTC+8",
+    "lugaresFamosos": [
+        "Pico Victoria",
+        "Puerto de Victoria",
+        "Avenida de las Estrellas",
+        "Mercado nocturno de Temple Street"
+    ]
+}

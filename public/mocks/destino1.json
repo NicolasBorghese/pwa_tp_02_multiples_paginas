@@ -1,0 +1,18 @@
+{
+    "id": "1",
+    "name": "Barcelona",
+    "description": "Barcelona, la fascinante capital de Cataluña, es una ciudad vibrante y cosmopolita que cautiva a visitantes de todo el mundo con su arquitectura modernista, su rica historia y su estilo de vida mediterráneo. Conocida por sus impresionantes obras maestras arquitectónicas, como la Sagrada Familia y el Parque Güell de Gaudí, así como por sus animados barrios, playas doradas y deliciosa gastronomía, Barcelona ofrece una experiencia única a sus visitantes. Los turistas pueden pasear por las animadas Ramblas, explorar el histórico Barrio Gótico, descubrir los encantadores rincones de El Born y disfrutar de vistas panorámicas desde el Montjuïc. Con su ambiente creativo y su cultura vibrante, Barcelona invita a los viajeros a sumergirse en su fascinante mezcla de tradición y modernidad.",
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "lenguaje": "Español, Catalán",
+    "zonaHoraria": "UTC+1",
+    "lugaresFamosos": [
+        "Sagrada Familia",
+        "Parque Güell",
+        "Las Ramblas",
+        "Barrio Gótico"
+    ]
+}

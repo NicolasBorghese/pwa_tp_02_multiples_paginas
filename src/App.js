@@ -1,5 +1,7 @@
 import "./App.css";
 import Home from "./pages/Home/Home";
+import Details from "./pages/Details/Details";
+import {ROUTES} from "./const/routes";
 
 //Importo React Router al script
 import {
@@ -9,9 +11,13 @@ import {
 
 const router = createBrowserRouter([
     {
-      path: "/",
+      path: ROUTES.home,
       element: <Home />,
     },
+    {
+      path: ROUTES.details,
+      element: <Details />,
+    }
 ]);
 
 function App() {
