@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "ciudad": "Barcelona",
+        "pais": "España",
+        "imagen": "/mocks/images/destino_1.jpg"
+    },
+    {
+        "id": "2",
+        "ciudad": "Buenos Aires",
+        "pais": "Argentina",
+        "imagen": "/mocks/images/destino_2.jpg"
+    },
+    {
+        "id": "3",
+        "ciudad": "Giza",
+        "pais": "Egipto",
+        "imagen": "/mocks/images/destino_3.jpg"
+    },
+    {
+        "id": "4",
+        "ciudad": "Hong Kong",
+        "pais": "China",
+        "imagen": "/mocks/images/destino_4.jpg"
+    },
+    {
+        "id": "5",
+        "ciudad": "Londres",
+        "pais": "Inglaterra",
+        "imagen": "/mocks/images/destino_5.jpg"
+    },
+    {
+        "id": "6",
+        "ciudad": "Nueva York",
+        "pais": "Estados Unidos",
+        "imagen": "/mocks/images/destino_6.jpg"
+    },
+    {
+        "id": "7",
+        "ciudad": "París",
+        "pais": "Francia",
+        "imagen": "/mocks/images/destino_7.jpg"
+    },
+    {
+        "id": "8",
+        "ciudad": "Río de Janeiro",
+        "pais": "Brasil",
+        "imagen": "/mocks/images/destino_8.jpg"
+    },
+    {
+        "id": "9",
+        "ciudad": "Roma",
+        "pais": "Italia",
+        "imagen": "/mocks/images/destino_9.jpg"
+    },
+    {
+        "id": "10",
+        "ciudad": "Teotihuacán",
+        "pais": "Mexico",
+        "imagen": "/mocks/images/destino_10.jpg"
+    }
+]
