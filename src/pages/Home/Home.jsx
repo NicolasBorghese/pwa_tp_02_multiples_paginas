@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import { useNavigate, useParams, useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { ROUTES } from "../../const/routes";
 import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/Banner";
@@ -26,8 +26,8 @@ const Home = () => {
                 const paramRestaurar = params.get("restaurar");
                 const paramInputBuscar = params.get("inputBuscar");
                 if (
-                    paramRestaurar == "1" ||
-                    (paramRestaurar == null && paramInputBuscar == null)
+                    paramRestaurar === "1" ||
+                    (paramRestaurar === null && paramInputBuscar === null)
                 ) {
                     navigate(ROUTES.home);
                 } else {
