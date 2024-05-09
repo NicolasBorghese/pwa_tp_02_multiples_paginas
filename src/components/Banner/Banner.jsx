@@ -7,7 +7,7 @@ const Banner = () => {
                 className="w-full"
             ></img>
             <div className="absolute inset-0 flex justify-center items-center">
-                <p className="text-center text-amber-400 text-4xl font-bold rounded-full bg-slate-900 bg-opacity-80 p-4">
+                <p className="text-center text-amber-400 text-4xl font-bold rounded-lg bg-slate-900 bg-opacity-80 p-4">
                     ¡Elegí el destino de tu próximo viaje!
                 </p>
             </div>

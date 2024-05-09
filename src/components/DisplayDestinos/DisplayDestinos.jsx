@@ -1,6 +1,6 @@
 import CardDestino from "../CardDestino/CardDestino";
 
-const DisplayDestinos = ({ arregloDestinos, onClickViewDetails }) => {
+const DisplayDestinos = ({ arregloDestinos }) => {
 
   let contenidoDisplay = 
   <div className="mx-40 my-8 p-10 bg-white text-center text-xl  rounded-full">
@@ -18,7 +18,6 @@ const DisplayDestinos = ({ arregloDestinos, onClickViewDetails }) => {
               imagen={destinoEnColeccion.imagen}
               ciudad={destinoEnColeccion.ciudad}
               pais={destinoEnColeccion.pais}
-              funcion={onClickViewDetails}
             />
           </div>
         ))}

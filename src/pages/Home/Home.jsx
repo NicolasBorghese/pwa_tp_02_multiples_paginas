@@ -1,55 +1,68 @@
 import { useState } from "react";
-import { useEffect } from "react"
-import { useNavigate } from "react-router-dom";
-import {ROUTES} from "../../const/routes";
+import { useEffect } from "react";
+import { useNavigate, useParams, useLocation } from "react-router-dom";
+import { ROUTES } from "../../const/routes";
 import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/Banner";
 import DisplayDestinos from "../../components/DisplayDestinos/DisplayDestinos";
-import CardDestino from "../../components/CardDestino/CardDestino";
 import Footer from "../../components/Footer/Footer";
-
 
 const Home = () => {
     const [destinosJson, setDestinosJson] = useState([]);
     const [destinosFiltradosJson, setDestinosFiltradosJson] = useState([]);
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+    const location = useLocation();
 
     useEffect(() => {
-      const fetchDestinos = async () => {
-        try {
-          const response = await fetch("../mocks/destinos.json");
-          const data = await response.json();
-          setDestinosJson(data);
-          setDestinosFiltradosJson(data);
-        } catch (error) {
-          console.error("Error al obtener los destinos:", error);
-        }
-      };
-      fetchDestinos();
-    }, []);
+        const fetchDestinos = async () => {
+            try {
+                window.scrollTo(0, 0);
+                const response = await fetch("../mocks/destinos.json");
+                const data = await response.json();
+                setDestinosJson(data);
+                setDestinosFiltradosJson(data);
+
+                const params = new URLSearchParams(location.search);
+                const paramRestaurar = params.get("restaurar");
+                const paramInputBuscar = params.get("inputBuscar");
+                if (
+                    paramRestaurar == "1" ||
+                    (paramRestaurar == null && paramInputBuscar == null)
+                ) {
+                    navigate(ROUTES.home);
+                } else {
+                    filtrarDestinos(paramInputBuscar);
+                    navigate(`${ROUTES.home}?inputBuscar=${paramInputBuscar}`);
+                }
+            } catch (error) {
+                console.error("Error al obtener los destinos:", error);
+            }
+        };
+        fetchDestinos();
+    }, [location.search]);
 
     const filtrarDestinos = (valor) => {
-      const destinosFiltrados =
-        destinosJson.filter(destinoJson => destinoJson.ciudad.toLowerCase().includes(valor.toLowerCase()) ||
-        destinoJson.pais.toLowerCase().includes(valor.toLowerCase()));
-      
-      setDestinosFiltradosJson(() => {
-          return destinosFiltrados;
-      });
-    };
+        const destinosFiltrados = destinosJson.filter(
+            (destinoJson) =>
+                destinoJson.ciudad
+                    .toLowerCase()
+                    .includes(valor.toLowerCase()) ||
+                destinoJson.pais.toLowerCase().includes(valor.toLowerCase())
+        );
 
-    const onClickDetailsHandler = (id) => {
-      navigate(ROUTES.details.replace(':id', id))
-    }
+        setDestinosFiltradosJson(() => {
+            return destinosFiltrados;
+        });
+    };
 
     return (
         <div className="h-full bg-gray-300">
-          <Header funcionBuscador={ filtrarDestinos } />
-          <div className="min-h-screen">
-            <Banner />
-            <DisplayDestinos arregloDestinos={ destinosFiltradosJson } onClickViewDetails={onClickDetailsHandler}/>
-          </div>
-          <Footer />
+            <Header funcionBuscador={filtrarDestinos} />
+            <div className="min-h-screen">
+                <Banner />
+                <DisplayDestinos arregloDestinos={destinosFiltradosJson} />
+            </div>
+            <Footer />
         </div>
     );
 };
