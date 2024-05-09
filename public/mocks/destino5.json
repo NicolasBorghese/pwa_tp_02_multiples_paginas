@@ -3,9 +3,9 @@
     "name": "Londres",
     "description": "Londres, la fascinante capital del Reino Unido, cautiva a visitantes de todo el mundo con su mezcla única de historia, cultura, arquitectura y vida urbana. Conocida como una de las ciudades más diversas y emocionantes del mundo, Londres ofrece una experiencia vibrante y variada, desde sus emblemáticos monumentos históricos hasta su bulliciosa vida nocturna y su escena gastronómica multicultural. Los visitantes pueden explorar lugares emblemáticos como el Big Ben, el Palacio de Buckingham y la Torre de Londres, pasear por sus encantadores parques como Hyde Park y Regent's Park, y descubrir una fascinante mezcla de arte, cultura y entretenimiento en sus numerosos museos, galerías y teatros. Con una energía inigualable y una hospitalidad acogedora, Londres invita a los viajeros a sumergirse en su rica historia y su emocionante modernidad.",
     "images": [
-        "",
-        "",
-        ""
+        "/mocks/images/londres/londres1.jpg",
+        "/mocks/images/londres/londres2.jpg",
+        "/mocks/images/londres/londres3.jpg"
     ],
     "lenguaje": "Inglés",
     "zonaHoraria": "UTC+0",
