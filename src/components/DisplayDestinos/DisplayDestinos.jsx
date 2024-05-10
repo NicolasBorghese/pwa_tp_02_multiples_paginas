@@ -3,7 +3,7 @@ import CardDestino from "../CardDestino/CardDestino";
 const DisplayDestinos = ({ arregloDestinos }) => {
 
   let contenidoDisplay = 
-  <div className="mx-40 my-8 p-10 bg-white text-center text-xl rounded-full">
+  <div className="mx-40 my-8 p-10 bg-white font-bold text-center text-xl rounded-full">
     <p>Lo sentimos, no hay destinos que coincidan con lo que está buscando</p>
   </div>
 

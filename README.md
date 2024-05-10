@@ -23,7 +23,7 @@ Aplicación con Múltiples Páginas
 
 <h3>Descripción de la aplicación</h3>
 
-La aplicación es un sitio web que permite visualizar distintos destinos turísticos en forma de "cards" que al hacerles click nos dirigen hacia otra página donde podemos ver información de este destino de manera más detallada. También permite descargar en forma de pdf la información de cada destino en particular. El sitio además cuenta con un buscador que nos permite hayar más facilemente los destinos a partir del nombre de ciudades o paises.
+La aplicación es un sitio web donde se visualizan distintos destinos turísticos en forma de "cards". Al hacerles click nos dirigen hacia otra página donde podemos ver información de este destino de manera más detallada. Además se puede descargar en forma de pdf la información de cada destino. El sitio también cuenta con un buscador que nos permite hayar más facilemente los destinos a partir del nombre de ciudades o paises.
 
 ---
 <h3>Imágenes de referencia del sitio</h3>
@@ -54,7 +54,7 @@ cd pwa_tp_02_multiples_paginas
 npm install
 ```
 
-4. Ejecutar la aplicación utilizando el comando
+4. Ejecutar la aplicación utilizando el comando:
 
 ```bash
 npm start

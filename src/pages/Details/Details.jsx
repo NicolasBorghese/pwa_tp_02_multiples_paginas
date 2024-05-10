@@ -6,6 +6,11 @@ import Header from "../../components/Header/Header";
 import DestinoDetail from "../../components/DestinoDetail/DestinoDetail";
 
 const Details = () => {
+    const [estadoPagina, setEstadoPagina] = useState(
+        <p className="my-8 p-10 bg-white font-bold text-center text-xl rounded-full">
+            Cargando...
+        </p>
+    );
     const [jsonData, setJsonData] = useState(null);
     const location = useLocation();
 
@@ -26,17 +31,25 @@ const Details = () => {
         fetchData();
     }, [location.search]);
 
+    useEffect(() => {
+        const timeoutId = setTimeout(() => {
+            setEstadoPagina(
+                <p className="my-8 p-10 bg-white text-red-800 font-bold text-center text-xl rounded-full">
+                    La página a la que desea acceder no se encuentra disponible
+                </p>
+            );
+        }, 4000);
+
+        return () => clearTimeout(timeoutId);
+    }, []);
+
     return (
         <div className="h-full bg-gray-300">
             <Header funcionBuscador={null} />
             {jsonData ? (
-                <DestinoDetail datosDestino={jsonData}/>
+                <DestinoDetail datosDestino={jsonData} />
             ) : (
-                <div className="mx-40 pt-32 min-h-svh">
-                    <p className="my-8 p-10 bg-white text-center text-xl rounded-full">
-                        Cargando...
-                    </p>
-                </div>
+                <div className="mx-40 pt-32 min-h-svh">{estadoPagina}</div>
             )}
             <Footer />
         </div>

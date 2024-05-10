@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import BotonPdfDetalles from "../BotonPdfDetalles/BotonPdfDetalles";
 
 const DestinoDetail = ({ datosDestino }) => {
-
     //Función para dar estilos a la flecha izquierda del carrusel
     function SamplePrevArrow(props) {
         const { className, style, onClick } = props;
@@ -53,14 +52,26 @@ const DestinoDetail = ({ datosDestino }) => {
     return (
         <div className="min-h-screen bg-gray-100 pt-32 mx-40 pb-8 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                    {datosDestino.ciudad}
-                </h2>
-                <p className="text-lg text-gray-600 mb-6">{datosDestino.descripcion}</p>
+                <div className="flex mb-4">
+                    <img
+                        src={datosDestino.imagenPrincipal}
+                        alt={`Imagen miniatura`}
+                        className="rounded h-14 mr-3"
+                    />
+                    <h2 className="text-3xl font-bold align-middle text-black my-auto">
+                      {datosDestino.ciudad}
+                    </h2>
+                </div>
+                <p className="text-lg text-black mb-6">
+                    {datosDestino.descripcion}
+                </p>
                 <div className=" w-3/5 content-center mx-auto mb-6">
                     <Slider {...settings}>
                         {datosDestino.imagenes.map((imagen, index) => (
-                            <div key={index} className=" h-min w-min rounded-lg overflow-hidden">
+                            <div
+                                key={index}
+                                className=" h-min w-min rounded-lg overflow-hidden"
+                            >
                                 <img
                                     src={imagen}
                                     alt={`Imagen ${index}`}
@@ -72,20 +83,19 @@ const DestinoDetail = ({ datosDestino }) => {
                 </div>
                 <div className="mt-10 flex justify-between mb-4">
                     <div>
-                      <h3 className="text-xl font-bold mb-2">
-                          Información
-                      </h3>
-                      <p>
-                          <span className="font-bold">Pais:</span>{" "}
-                          {datosDestino.pais}
-                      </p>
-                      <p>
-                          <span className="font-bold">Idioma:</span> {datosDestino.lenguaje}
-                      </p>
-                      <p>
-                          <span className="font-bold">Zona Horaria:</span>{" "}
-                          {datosDestino.zonaHoraria}
-                      </p>
+                        <h3 className="text-xl font-bold mb-2">Información</h3>
+                        <p>
+                            <span className="font-bold">Pais:</span>{" "}
+                            {datosDestino.pais}
+                        </p>
+                        <p>
+                            <span className="font-bold">Idioma:</span>{" "}
+                            {datosDestino.lenguaje}
+                        </p>
+                        <p>
+                            <span className="font-bold">Zona Horaria:</span>{" "}
+                            {datosDestino.zonaHoraria}
+                        </p>
                     </div>
                     <div>
                         <h3 className="text-xl font-bold mb-2">
@@ -99,7 +109,7 @@ const DestinoDetail = ({ datosDestino }) => {
                             ))}
                         </ul>
                     </div>
-                    <BotonPdfDetalles datosDestino={datosDestino}/>
+                    <BotonPdfDetalles datosDestino={datosDestino} />
                 </div>
             </div>
         </div>
