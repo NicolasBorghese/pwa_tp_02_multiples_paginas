@@ -30,10 +30,10 @@ La aplicación es un sitio web que permite visualizar distintos destinos turíst
 
 <img src="public/assets/vistaProyecto01.png" alt="Imagen de referencia 01"/>
 
-<div align="justify">
-  <img src="public/assets/vistaProyecto02.png" width="200" alt="Imagen de referencia 02">
-  <img src="public/assets/vistaProyecto03.png" width="200" alt="Imagen de referencia 03">
-  <img src="public/assets/vistaProyecto04.png" width="200" alt="Imagen de referencia 04">
+<div align="center">
+  <img src="public/assets/vistaProyecto02.png" width="220" alt="Imagen de referencia 02">
+  <img src="public/assets/vistaProyecto03.png" width="220" alt="Imagen de referencia 03">
+  <img src="public/assets/vistaProyecto04.png" width="220" alt="Imagen de referencia 04">
 </div>
 
 ---
