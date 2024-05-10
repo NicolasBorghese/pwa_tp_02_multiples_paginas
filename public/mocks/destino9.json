@@ -1,12 +1,14 @@
 {
     "id": "9",
-    "name": "Roma",
-    "description": "Roma, la Ciudad Eterna, es una de las ciudades más antiguas e históricas del mundo. Con su impresionante patrimonio cultural, sus magníficos monumentos y su exquisita gastronomía, Roma cautiva a visitantes de todo el mundo. La ciudad es famosa por sus icónicos sitios antiguos, como el Coliseo, el Foro Romano y el Panteón, así como por sus hermosas plazas, encantadores barrios y exuberantes parques. Los turistas pueden pasear por las pintorescas calles empedradas de Trastevere, maravillarse con las obras maestras de arte en los museos Vaticanos y disfrutar de la auténtica cocina italiana en trattorias locales. Con su rica historia, su encanto romántico y su ambiente animado, Roma ofrece una experiencia inolvidable para los amantes de la historia, la cultura y la buena comida.",
-    "images": [
+    "ciudad": "Roma",
+    "descripcion": "Roma, la Ciudad Eterna, es una de las ciudades más antiguas e históricas del mundo. Con su impresionante patrimonio cultural, sus magníficos monumentos y su exquisita gastronomía, Roma cautiva a visitantes de todo el mundo. La ciudad es famosa por sus icónicos sitios antiguos, como el Coliseo, el Foro Romano y el Panteón, así como por sus hermosas plazas, encantadores barrios y exuberantes parques. Los turistas pueden pasear por las pintorescas calles empedradas de Trastevere, maravillarse con las obras maestras de arte en los museos Vaticanos y disfrutar de la auténtica cocina italiana en trattorias locales. Con su rica historia, su encanto romántico y su ambiente animado, Roma ofrece una experiencia inolvidable para los amantes de la historia, la cultura y la buena comida.",
+    "imagenPrincipal": "/mocks/images/destino_9.jpg",
+    "imagenes": [
         "/mocks/images/roma/roma1.jpg",
         "/mocks/images/roma/roma2.jpg",
         "/mocks/images/roma/roma3.jpg"
     ],
+    "pais": "Italia",
     "lenguaje": "Italiano",
     "zonaHoraria": "UTC+2",
     "lugaresFamosos": [

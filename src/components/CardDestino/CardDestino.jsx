@@ -12,7 +12,7 @@ const CardDestino = ({ id, imagen, ciudad, pais }) => {
 
     return (
         <div
-            className="max-w-sm rounded-lg overflow-hidden shadow-lg hover:brightness-110 active:brightness-90 border-2"
+            className="max-w-sm rounded-lg overflow-hidden shadow-lg hover:brightness-110 active:brightness-90 border-2 cursor-pointer"
             onClick={onClickHandler}
         >
             <img

@@ -1,12 +1,14 @@
 {
     "id": "6",
-    "name": "Nueva York",
-    "description": "Nueva York, la icónica ciudad de los rascacielos y la Gran Manzana, cautiva a visitantes de todo el mundo con su energía inigualable, diversidad cultural y una increíble variedad de experiencias. Conocida como el epicentro del arte, la moda, la gastronomía y el entretenimiento, Nueva York ofrece una mezcla única de historia y modernidad. Desde sus imponentes rascacielos hasta sus encantadores parques y eclécticos barrios, la ciudad brinda infinitas oportunidades para explorar, descubrir y disfrutar. Los visitantes pueden maravillarse con monumentos emblemáticos como la Estatua de la Libertad, el Empire State Building y Times Square, y sumergirse en la vibrante vida cultural de Broadway, los museos de clase mundial y la ecléctica escena gastronómica. Con su energía contagiosa y su espíritu innovador, Nueva York invita a los viajeros a experimentar la grandeza y la diversidad de una de las ciudades más emocionantes del mundo.",
-    "images": [
+    "ciudad": "Nueva York",
+    "descripcion": "Nueva York, la icónica ciudad de los rascacielos y la Gran Manzana, cautiva a visitantes de todo el mundo con su energía inigualable, diversidad cultural y una increíble variedad de experiencias. Conocida como el epicentro del arte, la moda, la gastronomía y el entretenimiento, Nueva York ofrece una mezcla única de historia y modernidad. Desde sus imponentes rascacielos hasta sus encantadores parques y eclécticos barrios, la ciudad brinda infinitas oportunidades para explorar, descubrir y disfrutar. Los visitantes pueden maravillarse con monumentos emblemáticos como la Estatua de la Libertad, el Empire State Building y Times Square, y sumergirse en la vibrante vida cultural de Broadway, los museos de clase mundial y la ecléctica escena gastronómica. Con su energía contagiosa y su espíritu innovador, Nueva York invita a los viajeros a experimentar la grandeza y la diversidad de una de las ciudades más emocionantes del mundo.",
+    "imagenPrincipal": "/mocks/images/destino_6.jpg",
+    "imagenes": [
         "/mocks/images/newyork/newyork1.jpg",
         "/mocks/images/newyork/newyork2.jpg",
         "/mocks/images/newyork/newyork3.jpg"
     ],
+    "pais": "Estados Unidos",
     "lenguaje": "Inglés",
     "zonaHoraria": "UTC-5",
     "lugaresFamosos": [

@@ -1,12 +1,14 @@
 {
     "id": "2",
-    "name": "Buenos Aires",
-    "description": "Buenos Aires, la vibrante capital de Argentina, cautiva a visitantes de todo el mundo con su mezcla única de historia, cultura, arquitectura y vida urbana. Conocida como la Paris de America del Sur, esta ciudad cosmopolita ofrece una experiencia rica y variada, desde sus elegantes bulevares y impresionantes edificios historicos hasta su animada escena cultural y gastronomica. Los visitantes pueden pasear por barrios coloridos como La Boca y San Telmo, explorar sus numerosos museos y galerias de arte, disfrutar de espectaculos de tango apasionados y saborear la deliciosa cocina argentina en sus numerosos restaurantes y cafes. Con una energia contagiosa y una hospitalidad calida, Buenos Aires invita a los viajeros a sumergirse en su fascinante mezcla de tradicion y modernidad.",
-    "images": [
-    "/mocks/images/bsas/bsas1.jpg",
-    "/mocks/images/bsas/bsas2.jpg",
-    "/mocks/images/bsas/bsas3.jpg"
+    "ciudad": "Buenos Aires",
+    "descripcion": "Buenos Aires, la vibrante capital de Argentina, cautiva a visitantes de todo el mundo con su mezcla única de historia, cultura, arquitectura y vida urbana. Conocida como la Paris de America del Sur, esta ciudad cosmopolita ofrece una experiencia rica y variada, desde sus elegantes bulevares y impresionantes edificios historicos hasta su animada escena cultural y gastronomica. Los visitantes pueden pasear por barrios coloridos como La Boca y San Telmo, explorar sus numerosos museos y galerias de arte, disfrutar de espectaculos de tango apasionados y saborear la deliciosa cocina argentina en sus numerosos restaurantes y cafes. Con una energia contagiosa y una hospitalidad calida, Buenos Aires invita a los viajeros a sumergirse en su fascinante mezcla de tradicion y modernidad.",
+    "imagenPrincipal": "/mocks/images/destino_2.jpg",
+    "imagenes": [
+        "/mocks/images/bsas/bsas1.jpg",
+        "/mocks/images/bsas/bsas2.jpg",
+        "/mocks/images/bsas/bsas3.jpg"
     ],
+    "pais": "Argentina",
     "lenguaje": "Español",
     "zonaHoraria": "UTC-3",
     "lugaresFamosos": [

@@ -30,14 +30,7 @@ const Details = () => {
         <div className="h-full bg-gray-300">
             <Header funcionBuscador={null} />
             {jsonData ? (
-                <DestinoDetail
-                    name={jsonData.name}
-                    description={jsonData.description}
-                    images={jsonData.images}
-                    lenguaje={jsonData.lenguaje}
-                    zonaHoraria={jsonData.zonaHoraria}
-                    lugaresFamosos={jsonData.lugaresFamosos}
-                />
+                <DestinoDetail datosDestino={jsonData}/>
             ) : (
                 <div className="mx-40 pt-32 min-h-svh">
                     <p className="my-8 p-10 bg-white text-center text-xl rounded-full">

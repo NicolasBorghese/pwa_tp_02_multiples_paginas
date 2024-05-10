@@ -1,12 +1,14 @@
 {
     "id": "3",
-    "name": "Giza",
-    "description": "Giza, ubicada en las afueras de El Cairo, es famosa en todo el mundo por ser el hogar de las majestuosas Pirámides de Guiza, una de las Siete Maravillas del Mundo Antiguo. Estas antiguas estructuras, construidas hace más de 4.500 años, son un testimonio impresionante de la habilidad y la ingeniería de la civilización egipcia. Además de las pirámides, Giza alberga la Gran Esfinge de Guiza, una imponente estatua tallada en la roca que representa a un león con cabeza humana. Los visitantes pueden explorar el vasto complejo de las pirámides, aprender sobre la historia y la cultura del antiguo Egipto en el Museo de la Gran Esfinge, y disfrutar de vistas panorámicas del horizonte de El Cairo desde las cercanas colinas de Giza. Con su rica historia y su impresionante arquitectura, Giza es un destino fascinante para los amantes de la historia y los viajeros aventureros.",
-    "images": [
+    "ciudad": "Giza",
+    "descripcion": "Giza, ubicada en las afueras de El Cairo, es famosa en todo el mundo por ser el hogar de las majestuosas Pirámides de Guiza, una de las Siete Maravillas del Mundo Antiguo. Estas antiguas estructuras, construidas hace más de 4.500 años, son un testimonio impresionante de la habilidad y la ingeniería de la civilización egipcia. Además de las pirámides, Giza alberga la Gran Esfinge de Guiza, una imponente estatua tallada en la roca que representa a un león con cabeza humana. Los visitantes pueden explorar el vasto complejo de las pirámides, aprender sobre la historia y la cultura del antiguo Egipto en el Museo de la Gran Esfinge, y disfrutar de vistas panorámicas del horizonte de El Cairo desde las cercanas colinas de Giza. Con su rica historia y su impresionante arquitectura, Giza es un destino fascinante para los amantes de la historia y los viajeros aventureros.",
+    "imagenPrincipal": "/mocks/images/destino_3.jpg",
+    "imagenes": [
         "/mocks/images/giza/giza1.jpg",
         "/mocks/images/giza/giza2.jpg",
         "/mocks/images/giza/giza3.jpg"
     ],
+    "pais": "Egipto",
     "lenguaje": "Árabe",
     "zonaHoraria": "UTC+2",
     "lugaresFamosos": [

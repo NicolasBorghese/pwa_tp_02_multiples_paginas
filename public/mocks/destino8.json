@@ -1,12 +1,14 @@
 {
     "id": "8",
-    "name": "Río de Janeiro",
-    "description": "Río de Janeiro, conocida como la Ciudad Maravillosa, es una de las ciudades más vibrantes y emocionantes de Brasil. Con su impresionante belleza natural, su animada vida cultural y su espíritu festivo, Río cautiva a visitantes de todo el mundo. La ciudad es famosa por sus impresionantes playas, como Copacabana e Ipanema, sus icónicos monumentos, como el Cristo Redentor y el Pan de Azúcar, y su animada escena nocturna. Los turistas pueden disfrutar de vistas panorámicas desde el Cristo Redentor, explorar el encantador barrio de Santa Teresa y experimentar la energía contagiosa de los desfiles de carnaval. Con su clima tropical, sus hermosas playas y su espíritu festivo, Río de Janeiro ofrece una experiencia inolvidable para los viajeros aventureros y amantes del sol y la diversión.",
-    "images": [
+    "ciudad": "Río de Janeiro",
+    "descripcion": "Río de Janeiro, conocida como la Ciudad Maravillosa, es una de las ciudades más vibrantes y emocionantes de Brasil. Con su impresionante belleza natural, su animada vida cultural y su espíritu festivo, Río cautiva a visitantes de todo el mundo. La ciudad es famosa por sus impresionantes playas, como Copacabana e Ipanema, sus icónicos monumentos, como el Cristo Redentor y el Pan de Azúcar, y su animada escena nocturna. Los turistas pueden disfrutar de vistas panorámicas desde el Cristo Redentor, explorar el encantador barrio de Santa Teresa y experimentar la energía contagiosa de los desfiles de carnaval. Con su clima tropical, sus hermosas playas y su espíritu festivo, Río de Janeiro ofrece una experiencia inolvidable para los viajeros aventureros y amantes del sol y la diversión.",
+    "imagenPrincipal": "/mocks/images/destino_8.jpg",
+    "imagenes": [
         "/mocks/images/rio/rio1.jpg",
         "/mocks/images/rio/rio2.jpg",
         "/mocks/images/rio/rio3.jpg"
     ],
+    "pais": "Brasil",
     "lenguaje": "Portugués",
     "zonaHoraria": "UTC-3",
     "lugaresFamosos": [

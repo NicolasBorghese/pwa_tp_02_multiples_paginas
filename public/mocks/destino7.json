@@ -1,12 +1,14 @@
 {
     "id": "7",
-    "name": "París",
-    "description": "París, la Ciudad de la Luz, es una de las ciudades más románticas y emblemáticas del mundo. Con su impresionante arquitectura, su rica historia y su incomparable cultura, París cautiva a visitantes de todo el mundo. La ciudad es famosa por sus icónicos monumentos, como la Torre Eiffel, la catedral de Notre-Dame y el Arco de Triunfo, así como por sus encantadores bulevares, elegantes boutiques y exquisita gastronomía. Los turistas pueden pasear por el histórico barrio de Montmartre, explorar los magníficos museos como el Louvre y disfrutar de un relajante paseo por los jardines de Luxemburgo. Con su ambiente romántico y su atmósfera vibrante, París ofrece una experiencia inolvidable para los amantes del arte, la moda y la gastronomía.",
-    "images": [
+    "ciudad": "París",
+    "descripcion": "París, la Ciudad de la Luz, es una de las ciudades más románticas y emblemáticas del mundo. Con su impresionante arquitectura, su rica historia y su incomparable cultura, París cautiva a visitantes de todo el mundo. La ciudad es famosa por sus icónicos monumentos, como la Torre Eiffel, la catedral de Notre-Dame y el Arco de Triunfo, así como por sus encantadores bulevares, elegantes boutiques y exquisita gastronomía. Los turistas pueden pasear por el histórico barrio de Montmartre, explorar los magníficos museos como el Louvre y disfrutar de un relajante paseo por los jardines de Luxemburgo. Con su ambiente romántico y su atmósfera vibrante, París ofrece una experiencia inolvidable para los amantes del arte, la moda y la gastronomía.",
+    "imagenPrincipal": "/mocks/images/destino_7.jpg",
+    "imagenes": [
         "/mocks/images/paris/paris1.jpg",
         "/mocks/images/paris/paris2.jpg",
         "/mocks/images/paris/paris3.jpg"
     ],
+    "pais": "Francia",
     "lenguaje": "Francés",
     "zonaHoraria": "UTC+1",
     "lugaresFamosos": [
