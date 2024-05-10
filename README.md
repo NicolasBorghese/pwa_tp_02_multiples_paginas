@@ -28,11 +28,11 @@ La aplicación es un sitio web que permite visualizar distintos destinos turíst
 ---
 <h3>Imágenes de referencia del sitio</h3>
 
-<img src="public/assets/vistaProyecto01.png"/>
+<img src="public/assets/vistaProyecto01.png" alt="Imagen de referencia 01"/>
 
-<p align="center">
-  <img src="public/assets/vistaProyecto01.png" width="400" alt="Imagen 1">
-  <img src="public/assets/vistaProyecto01.png" width="400" alt="Imagen 2">
+<p align="justify">
+  <img src="public/assets/vistaProyecto02.png" width="200" alt="Imagen de referencia 02">
+  <img src="public/assets/vistaProyecto03.png" width="200" alt="Imagen de referencia 03">
 </p>
 
 ---
