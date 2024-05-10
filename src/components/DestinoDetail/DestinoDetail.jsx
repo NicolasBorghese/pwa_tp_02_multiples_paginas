@@ -59,7 +59,7 @@ const DestinoDetail = ({ datosDestino }) => {
                         className="rounded h-14 mr-3"
                     />
                     <h2 className="text-3xl font-bold align-middle text-black my-auto">
-                      {datosDestino.ciudad}
+                        {datosDestino.ciudad}
                     </h2>
                 </div>
                 <p className="text-lg text-black mb-6">

@@ -4,11 +4,15 @@ Programación Web Avanzada 2024
 
 <h3>Trabajo Práctico N°2: React</h3>
 Aplicación con Múltiples Páginas
-<br><br>
+<br><br><br>
+
+Logo del sitio:
+
+<br>
 
 <img src="public/assets/logoNuevoDestino1.png" width="30%" alt="Logo del sitio"/>
 
-<br><br>
+<br>
 
 </div>
 
