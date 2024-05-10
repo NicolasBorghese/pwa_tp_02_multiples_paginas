@@ -6,7 +6,7 @@ Programación Web Avanzada 2024
 Aplicación con Múltiples Páginas
 <br><br>
 
-<img src="public/assets/logoNuevoDestino1.png" width="50%" alt="Logo del sitio"/>
+<img src="public/assets/logoNuevoDestino1.png" width="30%" alt="Logo del sitio"/>
 
 <br><br>
 
@@ -30,9 +30,10 @@ La aplicación es un sitio web que permite visualizar distintos destinos turíst
 
 <img src="public/assets/vistaProyecto01.png" alt="Imagen de referencia 01"/>
 
-<p align="justify">
+<p align="center">
   <img src="public/assets/vistaProyecto02.png" width="200" alt="Imagen de referencia 02">
   <img src="public/assets/vistaProyecto03.png" width="200" alt="Imagen de referencia 03">
+  <img src="public/assets/vistaProyecto04.png" width="200" alt="Imagen de referencia 04">
 </p>
 
 ---
