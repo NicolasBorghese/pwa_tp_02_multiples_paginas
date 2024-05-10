@@ -7,6 +7,7 @@ Aplicación con Múltiples Páginas
 <br><br>
 
 Logo del sitio:
+
 <img src="public/assets/logoNuevoDestino1.png" width="30%" alt="Logo del sitio"/>
 
 <br>
