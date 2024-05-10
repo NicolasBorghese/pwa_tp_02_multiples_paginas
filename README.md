@@ -4,8 +4,11 @@ Programación Web Avanzada 2024
 
 <h3>Trabajo Práctico N°2: React</h3>
 Aplicación con Múltiples Páginas
+<br><br>
 
-<img src="public/assets/logoNuevoDestino1.png"/>
+<img src="public/assets/logoNuevoDestino1.png" width="50%" alt="Logo del sitio"/>
+
+<br><br>
 
 </div>
 
@@ -28,8 +31,8 @@ La aplicación es un sitio web que permite visualizar distintos destinos turíst
 <img src="public/assets/vistaProyecto01.png"/>
 
 <p align="center">
-  <img src="public/assets/vistaProyecto01.png" width="50%" alt="Imagen 1">
-  <img src="public/assets/vistaProyecto01.png" width="50%" alt="Imagen 2">
+  <img src="public/assets/vistaProyecto01.png" width="400" alt="Imagen 1">
+  <img src="public/assets/vistaProyecto01.png" width="400" alt="Imagen 2">
 </p>
 
 ---
