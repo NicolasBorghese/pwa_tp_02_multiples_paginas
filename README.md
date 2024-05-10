@@ -30,18 +30,34 @@ La aplicación es un sitio web que permite visualizar distintos destinos turíst
 
 <img src="public/assets/vistaProyecto01.png" alt="Imagen de referencia 01"/>
 
-<p align="center">
+<div align="justify">
   <img src="public/assets/vistaProyecto02.png" width="200" alt="Imagen de referencia 02">
   <img src="public/assets/vistaProyecto03.png" width="200" alt="Imagen de referencia 03">
   <img src="public/assets/vistaProyecto04.png" width="200" alt="Imagen de referencia 04">
-</p>
+</div>
 
 ---
 <h3>Guía de instalación rápida</h3>
 
-1. Ubicar la terminal en el directorio deseado para instalar el proyecto y clonar el repositorio ejecutando en consola el comando: `git clone https://github.com/NicolasBorghese/pwa_tp_02_multiples_paginas.git`
-2. Acceder a la carpeta donde se instalo el proyecto con el comando: `cd pwa_tp_02_multiples_paginas`
-3. Instalar las dependencias necesarias para el proyecto ejecutando el comando: `npm install`
-4. Ejecutar la aplicación utilizando el comando `npm start`
+1. Ubicar la terminal en el directorio deseado para instalar el proyecto y clonar el repositorio ejecutando en consola el comando:
+```bash
+git clone https://github.com/NicolasBorghese/pwa_tp_02_multiples_paginas.git
+```
+2. Acceder a la carpeta donde se instalo el proyecto con el comando:
+
+```bash
+cd pwa_tp_02_multiples_paginas`
+```
+3. Instalar las dependencias necesarias para el proyecto ejecutando el comando:
+
+```bash
+npm install
+```
+
+4. Ejecutar la aplicación utilizando el comando
+
+```bash
+npm start
+```
 
 ---
