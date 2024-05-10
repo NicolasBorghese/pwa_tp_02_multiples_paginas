@@ -6,6 +6,7 @@ import {
     Document,
     Image,
     StyleSheet,
+    Link,
 } from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
@@ -14,25 +15,49 @@ const styles = StyleSheet.create({
         backgroundColor: "#FFFFFF",
         padding: 20,
     },
-    section: {
-        marginBottom: 10,
+    contenedorLogo: {
+        backgroundColor: "#0f172A",
+        padding: 20,
+        marginBottom: 20,
     },
-    title: {
+    logo: {
+        width: "40%",
+        marginHorizontal: "auto",
+    },
+    contenedorTituloCiudad: {
+        marginBottom: 20,
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+    },
+    imagenPrincipal: {
+        width: "15%",
+        borderRadius: 8,
+        marginRight: 10,
+    },
+    textoTituloCiudad: {
         fontSize: 18,
         fontWeight: "bold",
-        marginBottom: 10,
     },
-    description: {
+    textoDescripcion: {
         fontSize: 12,
-        marginBottom: 10,
+        marginBottom: 20,
     },
-    image: {
+    imagenGrande: {
         alignSelf: "center",
-        width: "90%",
-        marginBottom: 10,
+        width: "80%",
+        marginBottom: 20,
         borderRadius: 8,
     },
-    subtitle: {
+    contenedorDatos: {
+        marginBottom: 20,
+        display: "flex",
+        flexDirection: "row",
+    },
+    contenedorInformacion: {
+        marginRight: 40,
+    },
+    subtitulo: {
         fontSize: 16,
         fontWeight: "bold",
         marginBottom: 5,
@@ -41,34 +66,80 @@ const styles = StyleSheet.create({
         fontSize: 12,
         marginLeft: 10,
     },
+    footer: {
+        backgroundColor: "#0f172A",
+        padding: 10,
+    },
+    tituloFooter: {
+        fontSize: 14,
+        marginHorizontal: "auto",
+        marginBottom: 10,
+        color: "white",
+        fontWeight: "bold",
+    },
+    textoFooter: {
+        fontSize: 10,
+        color: "white",
+        marginHorizontal: "auto",
+    },
 });
 
 const PdfDetalles = ({ datosDestino }) => (
     <Document>
-        <Page size="A4" style={styles.page}>
-            <View style={styles.section}>
-                <Text style={styles.title}>{datosDestino.ciudad}</Text>
-                <Text style={styles.description}>
-                    {datosDestino.descripcion}
-                </Text>
+        <Page style={styles.page}>
+            <View style={styles.contenedorLogo}>
+                <Link src="https://github.com/NicolasBorghese/pwa_tp_02_multiples_paginas">
+                    <Image
+                        src="/assets/logoNuevoDestino1.png"
+                        alt="Logo Nuevo Destino"
+                        style={styles.logo}
+                    />
+                </Link>
+            </View>
+            <View style={styles.contenedorTituloCiudad}>
                 <Image
                     src={datosDestino.imagenPrincipal}
-                    style={styles.image}
+                    alt="Imagen miniatura"
+                    style={styles.imagenPrincipal}
                 />
-                <Text style={styles.subtitle}>Información:</Text>
-                <Text style={styles.listItem}>País: {datosDestino.pais}</Text>
-                <Text style={styles.listItem}>
-                    Lenguaje: {datosDestino.lenguaje}
+                <Text style={styles.textoTituloCiudad}>
+                    {datosDestino.ciudad}
                 </Text>
-                <Text style={styles.listItem}>
-                    Zona horaria: {datosDestino.zonaHoraria}
-                </Text>
-                <Text style={styles.subtitle}>Lugares famosos:</Text>
-                {datosDestino.lugaresFamosos.map((lugar, index) => (
-                    <Text key={index} style={styles.listItem}>
-                        {lugar}
+            </View>
+            <Text style={styles.textoDescripcion}>
+                {datosDestino.descripcion}
+            </Text>
+            <Image
+                src={datosDestino.imagenes[0]}
+                alt="Imagen grande"
+                style={styles.imagenGrande}
+            />
+            <View style={styles.contenedorDatos}>
+                <View style={styles.contenedorInformacion}>
+                    <Text style={styles.subtitulo}>Información:</Text>
+                    <Text style={styles.listItem}>
+                        País: {datosDestino.pais}
                     </Text>
-                ))}
+                    <Text style={styles.listItem}>
+                        Lenguaje: {datosDestino.lenguaje}
+                    </Text>
+                    <Text style={styles.listItem}>
+                        Zona horaria: {datosDestino.zonaHoraria}
+                    </Text>
+                </View>
+                <View style={styles.contenedorLugaresFamosos}>
+                    <Text style={styles.subtitulo}>Lugares famosos:</Text>
+                    {datosDestino.lugaresFamosos.map((lugar, index) => (
+                        <Text key={index} style={styles.listItem}>
+                            {lugar}
+                        </Text>
+                    ))}
+                </View>
+            </View>
+            <View style={styles.footer}>
+                <Text style={styles.tituloFooter}>2024 Grupo 04 PWA</Text>
+                <Text style={styles.textoFooter}>Borghese Nicolás FAI-997</Text>
+                <Text style={styles.textoFooter}>Blanco Julián FAI-3858</Text>
             </View>
         </Page>
     </Document>
