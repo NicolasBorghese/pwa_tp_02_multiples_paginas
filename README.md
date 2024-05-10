@@ -46,7 +46,7 @@ git clone https://github.com/NicolasBorghese/pwa_tp_02_multiples_paginas.git
 2. Acceder a la carpeta donde se instalo el proyecto con el comando:
 
 ```bash
-cd pwa_tp_02_multiples_paginas`
+cd pwa_tp_02_multiples_paginas
 ```
 3. Instalar las dependencias necesarias para el proyecto ejecutando el comando:
 
