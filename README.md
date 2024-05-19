@@ -39,8 +39,30 @@ La aplicación es un sitio web donde se visualizan distintos destinos turístico
 </div>
 
 ---
-<h3>Guía de instalación rápida</h3>
+<h3>Guía de instalación</h3>
 
+Para poder ejecutar este proyecto en su ordenador es necesario contar primero con las siguientes herramientas:
+
+- Un editor de código, si no cuenta con ninguno recomendamos el uso de Visual Studio Code para Windows
+<br>
+<div align="center">
+[Link al sitio de Visual Studio Code](https://code.visualstudio.com/)
+</div>
+
+- Git, un sistema de control de versiones distribuido
+<br>
+<div align="center">
+[Link al sitio de Git](https://git-scm.com/)
+</div>
+
+- Node.js, un entorno de ejecución de JavaScript
+<br>
+<div align="center">
+[Link al sitio de Node.js](https://nodejs.org/en)
+</div>
+<br>
+Si ya tiene estas herramientas instaladas en su equipo entonces debe abrir su editor de código y seguir los siguientes pasos:
+<br>
 1. Ubicar la terminal en el directorio deseado para instalar el proyecto y clonar el repositorio ejecutando en consola el comando:
 ```bash
 git clone https://github.com/NicolasBorghese/pwa_tp_02_multiples_paginas.git

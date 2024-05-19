@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
     },
     contenedorInformacion: {
-        marginRight: 40,
+        marginRight: 60,
     },
     subtitulo: {
         fontSize: 16,
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     },
 });
 
-const PdfDetalles = ({ datosDestino }) => (
+const PdfDetalles = ({ datosDestino, numeroImagenCentral }) => (
     <Document>
         <Page style={styles.page}>
             <View style={styles.contenedorLogo}>
@@ -110,7 +110,7 @@ const PdfDetalles = ({ datosDestino }) => (
                 {datosDestino.descripcion}
             </Text>
             <Image
-                src={datosDestino.imagenes[0]}
+                src={datosDestino.imagenes[numeroImagenCentral]}
                 alt="Imagen grande"
                 style={styles.imagenGrande}
             />

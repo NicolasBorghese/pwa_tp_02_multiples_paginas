@@ -1,9 +1,12 @@
+import { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BotonPdfDetalles from "../BotonPdfDetalles/BotonPdfDetalles";
 
 const DestinoDetail = ({ datosDestino }) => {
+    const [numeroImagenCentral, setNumeroImagenCentral] = useState(0);
+
     //Función para dar estilos a la flecha izquierda del carrusel
     function SamplePrevArrow(props) {
         const { className, style, onClick } = props;
@@ -45,6 +48,8 @@ const DestinoDetail = ({ datosDestino }) => {
         speed: 400,
         slidesToShow: 1,
         slidesToScroll: 1,
+        adaptiveHeight: false,
+        afterChange: (i) => setNumeroImagenCentral(i),
         prevArrow: <SamplePrevArrow />,
         nextArrow: <SampleNextArrow />,
     };
@@ -56,7 +61,7 @@ const DestinoDetail = ({ datosDestino }) => {
                     <img
                         src={datosDestino.imagenPrincipal}
                         alt={`Imagen miniatura`}
-                        className="rounded h-14 mr-3"
+                        className="rounded w-28 mr-3"
                     />
                     <h2 className="text-3xl font-bold align-middle text-black my-auto">
                         {datosDestino.ciudad}
@@ -109,7 +114,10 @@ const DestinoDetail = ({ datosDestino }) => {
                             ))}
                         </ul>
                     </div>
-                    <BotonPdfDetalles datosDestino={datosDestino} />
+                    <BotonPdfDetalles
+                        datosDestino={datosDestino}
+                        numeroImagenCentral={numeroImagenCentral}
+                    />
                 </div>
             </div>
         </div>
