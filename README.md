@@ -43,7 +43,7 @@ La aplicación es un sitio web donde se visualizan distintos destinos turístico
 
 Para poder ejecutar este proyecto en su ordenador es necesario contar primero con las siguientes herramientas:
 
-- Un editor de código, si no cuenta con ninguno recomendamos el uso de Visual Studio Code para Windows
+- <b>Un editor de código</b>, si no cuenta con ninguno recomendamos el uso de <b>Visual Studio Code</b> para Windows
 
 <div align="center">
 
@@ -51,7 +51,7 @@ Para poder ejecutar este proyecto en su ordenador es necesario contar primero co
 
 </div>
 
-- Git, un sistema de control de versiones distribuido
+- <b>Git</b>, un sistema de control de versiones distribuido
 
 <div align="center">
 
@@ -59,7 +59,7 @@ Para poder ejecutar este proyecto en su ordenador es necesario contar primero co
 
 </div>
 
-- Node.js, un entorno de ejecución de JavaScript
+- <b>Node.js</b>, un entorno de ejecución de JavaScript
 
 <div align="center">
 
@@ -69,11 +69,12 @@ Para poder ejecutar este proyecto en su ordenador es necesario contar primero co
 
 <br>
 
-Si ya tiene estas herramientas instaladas en su equipo entonces debe abrir su editor de código y seguir los siguientes pasos:
+Si ya tiene estas herramientas instaladas en su equipo entonces debe ejecutar su editor de código, abrir una nueva terminal y seguir los siguientes pasos:
 
 <br>
 
 1. Ubicar la terminal en el directorio deseado para instalar el proyecto y clonar el repositorio ejecutando en consola el comando:
+
 ```bash
 git clone https://github.com/NicolasBorghese/pwa_tp_02_multiples_paginas.git
 ```
