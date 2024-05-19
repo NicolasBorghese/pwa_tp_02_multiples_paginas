@@ -141,6 +141,12 @@ npm start
         <td>Librería de iconos para React</td>
         <td>https://react-icons.github.io/react-icons/</td>
     </tr>
+    <tr>
+        <td>Node.js</td>
+        <td>20.11.1</td>
+        <td>Entorno de ejecución de JavaScript</td>
+        <td>https://nodejs.org/en</td>
+    </tr>
     
 </table>
 
