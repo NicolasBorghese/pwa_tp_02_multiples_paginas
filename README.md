@@ -18,8 +18,8 @@ Logo del sitio:
 
 <h3>Grupo 4</h3>
 
--   Borghese Nicolás FAI-997
--   Blanco Julián FAI-3858
+-   Borghese Nicolás \[FAI-997\]
+-   Blanco Julián \[FAI-3858\]
 
 ---
 
@@ -94,5 +94,54 @@ npm install
 ```bash
 npm start
 ```
+
+---
+<h3>Tecnologías utilizadas</h3>
+
+<table>
+    <tr>
+        <td><b>Nombre</b></td>
+        <td><b>Versión</b></td>
+        <td><b>Descripción</b></td>
+        <td><b>Link</b></td>
+    </tr>
+    <tr>
+        <td>React</td>
+        <td>18.2.1</td>
+        <td>Librería de javascript</td>
+        <td>https://es.react.dev/</td>
+    </tr>
+    <tr>
+        <td>Tailwind</td>
+        <td>3.4.3</td>
+        <td>Librería de CSS</td>
+        <td>https://tailwindcss.com/</td>
+    </tr>
+    <tr>
+        <td>React Router</td>
+        <td>6.23.0</td>
+        <td>Librería para manejar la navegación y las rutas en aplicaciones de React</td>
+        <td>https://reactrouter.com/en/main</td>
+    </tr>
+    <tr>
+        <td>React-pdf</td>
+        <td>3.4.4</td>
+        <td>Librería que permite la visualización y manipulación de documentos PDF en aplicaciones React</td>
+        <td>https://react-pdf.org/</td>
+    </tr>
+    <tr>
+        <td>React Slick</td>
+        <td>0.30.2</td>
+        <td>Librería de componentes de React que proporciona un carrusel (slider) personalizable</td>
+        <td>https://react-slick.neostack.com/</td>
+    </tr>
+    <tr>
+        <td>React Icons</td>
+        <td>5.2.1</td>
+        <td>Librería de iconos para React</td>
+        <td>https://react-icons.github.io/react-icons/</td>
+    </tr>
+    
+</table>
 
 ---
