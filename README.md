@@ -16,6 +16,14 @@ Logo del sitio:
 
 ---
 
+<div align="center">
+
+[🔗 Ver proyecto desplegado](https://pwa-tp-02-multiples-paginas.vercel.app/)
+
+</div>
+
+---
+
 <h3>Grupo 4</h3>
 
 - Borghese Nicolas \[FAI-997\]
