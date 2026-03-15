@@ -18,8 +18,8 @@ Logo del sitio:
 
 <h3>Grupo 4</h3>
 
--   Borghese Nicolás \[FAI-997\]
--   Blanco Julián \[FAI-3858\]
+- Borghese Nicolas \[FAI-997\]
+- Blanco Julián \[FAI-3858\]
 
 ---
 
@@ -28,6 +28,7 @@ Logo del sitio:
 La aplicación es un sitio web donde se visualizan distintos destinos turísticos en forma de "cards". Al hacerles click nos dirigen hacia otra página donde podemos ver información de este destino de manera más detallada. Además se puede descargar en forma de pdf la información de cada destino. El sitio también cuenta con un buscador que nos permite hayar más facilemente los destinos a partir del nombre de ciudades o paises.
 
 ---
+
 <h3>Imágenes de referencia del sitio</h3>
 
 <img src="public/assets/vistaProyecto01.png" alt="Imagen de referencia 01"/>
@@ -39,6 +40,7 @@ La aplicación es un sitio web donde se visualizan distintos destinos turístico
 </div>
 
 ---
+
 <h3>Guía de instalación</h3>
 
 Para poder ejecutar este proyecto en su ordenador es necesario contar primero con las siguientes herramientas:
@@ -78,11 +80,13 @@ Si ya tiene estas herramientas instaladas en su equipo entonces debe ejecutar su
 ```bash
 git clone https://github.com/NicolasBorghese/pwa_tp_02_multiples_paginas.git
 ```
+
 2. Acceder a la carpeta donde se instalo el proyecto con el comando:
 
 ```bash
 cd pwa_tp_02_multiples_paginas
 ```
+
 3. Instalar las dependencias necesarias para el proyecto ejecutando el comando:
 
 ```bash
@@ -96,6 +100,7 @@ npm start
 ```
 
 ---
+
 <h3>Tecnologías utilizadas</h3>
 
 <table>
