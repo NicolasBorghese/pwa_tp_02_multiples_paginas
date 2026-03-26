@@ -55,7 +55,7 @@ const DestinoDetail = ({ datosDestino }) => {
     };
 
     return (
-        <div className="min-h-screen bg-gray-100 pt-32 mx-40 pb-8 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen bg-gray-100 pt-32 mx-0 sm:mx-6 md:mx-16 lg:mx-40 pb-8 px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
                 <div className="flex mb-4">
                     <img
@@ -70,7 +70,7 @@ const DestinoDetail = ({ datosDestino }) => {
                 <p className="text-lg text-black mb-6">
                     {datosDestino.descripcion}
                 </p>
-                <div className=" w-3/5 content-center mx-auto mb-6">
+                <div className="w-full sm:w-4/5 md:w-3/5 content-center mx-auto mb-6 px-8">
                     <Slider {...settings}>
                         {datosDestino.imagenes.map((imagen, index) => (
                             <div
@@ -86,7 +86,7 @@ const DestinoDetail = ({ datosDestino }) => {
                         ))}
                     </Slider>
                 </div>
-                <div className="mt-10 flex justify-between mb-4">
+                <div className="mt-10 flex flex-col sm:flex-row justify-between mb-4 gap-6">
                     <div>
                         <h3 className="text-xl font-bold mb-2">Información</h3>
                         <p>

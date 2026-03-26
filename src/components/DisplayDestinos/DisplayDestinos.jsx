@@ -2,7 +2,7 @@ import CardDestino from "../CardDestino/CardDestino";
 
 const DisplayDestinos = ({ arregloDestinos }) => {
     let contenidoDisplay = (
-        <div className="mx-40 my-8 p-10 bg-white font-bold text-center text-xl rounded-full">
+        <div className="mx-4 sm:mx-10 md:mx-20 lg:mx-40 my-8 p-6 sm:p-10 bg-white font-bold text-center text-xl rounded-full">
             <p>
                 Lo sentimos, no hay destinos que coincidan con lo que está
                 buscando
@@ -12,7 +12,7 @@ const DisplayDestinos = ({ arregloDestinos }) => {
 
     if (arregloDestinos.length > 0) {
         contenidoDisplay = (
-            <div className="mx-40 my-8">
+            <div className="mx-4 sm:mx-10 md:mx-20 lg:mx-40 my-8">
                 <div className="flex flex-wrap -mx-4">
                     {arregloDestinos.map((destinoEnColeccion) => (
                         <div

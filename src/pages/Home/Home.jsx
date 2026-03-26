@@ -58,7 +58,7 @@ const Home = () => {
     return (
         <div className="h-full bg-gray-300">
             <Header funcionBuscador={filtrarDestinos} />
-            <div className="min-h-screen">
+            <div className="min-h-screen pt-24">
                 <Banner />
                 <DisplayDestinos arregloDestinos={destinosFiltradosJson} />
             </div>
